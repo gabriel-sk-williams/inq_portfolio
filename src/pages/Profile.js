@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import ClientList from '../components/ClientList';
-import '../Inqstyles.css';
+import '../gskwStyles.css';
 
 class Profile extends Component {
 
   description = () => {
     return (
       <div className="appear">
-        <h3>inqstudio is an interdisciplinary practice based in New York City, specializing in the development of products and services on the frontier of sustainability, design, and urbanism.</h3><br/><br/>
+        <h3>gskw is an interdisciplinary practice based in New York City, specializing in the development of products and services on the frontier of sustainability, design, and urbanism.</h3><br/><br/>
         <h3 className="bold">• Urban research and visualization</h3>
         <h3>We are dedicated to cities and their infrastructures, bringing a deep wealth of practical, historical, and theoretical knowledge to bear on issues of housing, transport, access, and land-use.</h3><br/>
         <h3 className="bold">• Application development</h3>
@@ -47,7 +47,7 @@ class Profile extends Component {
           </div>
           <h5>Connect with us:</h5>
           <a rel="noopener noreferrer"
-             href={"https://www.instagram.com/machineinquirystudio/?hl=en"}
+             href={"https://www.instagram.com/gskw_xyz/?hl=en"}
              target="_blank">
             <h5 className="link">Instagram</h5>
           </a>

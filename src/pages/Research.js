@@ -5,7 +5,7 @@ import I002 from '../essays/I002';
 import I003 from '../essays/I003';
 import I004 from '../essays/I004';
 import EntryList from '../components/EntryList';
-import '../Inqstyles.css';
+import '../gskwStyles.css';
 
 class Research extends Component {
 

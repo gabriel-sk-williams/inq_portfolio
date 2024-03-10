@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Image from './Image';
-import '../Inqstyles.css';
+import '../gskwStyles.css';
 
 class Viewer extends Component {
 

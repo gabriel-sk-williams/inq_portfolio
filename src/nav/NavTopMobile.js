@@ -9,10 +9,15 @@ class NavTopMobile extends Component {
 
 	render() {
         return 	(
-            <nav className="">
-                <div className="nav-table">
-                    <div className="mobile-left col-6-12" onClick={this.handleClick} />
-                    <div className="mobile-right col-6-12">
+            <nav className="nav-table flex">
+                <div className="col-10-12" onClick={this.handleClick}>
+                    <div className="mobile-left">
+                        <h1 className="click black">gskw</h1>
+                    </div>
+                </div>
+                
+                <div className="col-2-12">
+                    <div className="mobile-right">
                         <ExitShape
                             size={36}
                             className="exit-shape"
@@ -24,9 +29,5 @@ class NavTopMobile extends Component {
         );
     }
 }
-
-
-
-
 
 export default NavTopMobile;

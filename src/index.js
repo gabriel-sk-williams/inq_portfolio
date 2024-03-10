@@ -1,7 +1,7 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
 import { render } from 'react-snapshot';
-import InqStudio from './InqStudio';
+import Content from './Content';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -142,13 +142,13 @@ function AppRouter() {
         <Router>
             <Switch>
               <Route exact path="/" render={(props) => ( 
-                <InqStudio {...props} 
+                <Content {...props} 
                   activePage="production" 
                   entries={entries} 
                   projects={projects} /> 
               )} />
               <Route exact path="/research/000/" render={(props) => ( 
-                <InqStudio {...props} 
+                <Content {...props} 
                   activePage="research" 
                   activeEntry={0} 
                   entries={entries} 
@@ -156,35 +156,35 @@ function AppRouter() {
                 /> 
               )} />
               <Route exact path="/research/001/" render={(props) => ( 
-                <InqStudio {...props} 
+                <Content {...props} 
                   activePage="research" 
                   activeEntry={1} 
                   entries={entries} 
                   projects={projects} /> 
               )} />
               <Route exact path="/research/002/" render={(props) => ( 
-                <InqStudio {...props} 
+                <Content {...props} 
                   activePage="research" 
                   activeEntry={2} 
                   entries={entries} 
                   projects={projects} /> 
               )} />
               <Route exact path="/research/003/" render={(props) => ( 
-                <InqStudio {...props} 
+                <Content {...props} 
                   activePage="research" 
                   activeEntry={3} 
                   entries={entries} 
                   projects={projects} /> 
               )} />
               <Route exact path="/research/004/" render={(props) => ( 
-                <InqStudio {...props} 
+                <Content {...props} 
                   activePage="research" 
                   activeEntry={4} 
                   entries={entries} 
                   projects={projects} /> 
               )} />
               <Route exact path="/profile/" render={(props) => ( 
-                <InqStudio {...props} 
+                <Content {...props} 
                   activePage="profile" 
                   entries={entries} 
                   projects={projects} 

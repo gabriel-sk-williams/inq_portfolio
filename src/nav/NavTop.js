@@ -13,7 +13,7 @@ class NavTop extends Component {
 			activePage: props.activePage,
 			entries: props.entries || [],
 			projects: props.projects || []
-			}
+		}
 	}
 
 	componentWillUpdate(nextProps) {
@@ -54,13 +54,11 @@ class NavTop extends Component {
 					changeProject={this.changeProject}
 				/>
 				<ul className="flex">
-					<li className="col-10-12 left">						
-						<Link to='/'><h1 className="click grey">machine</h1><br/></Link>
-						<Link to='/'><h1 className="click black">inq</h1></Link>
-						<Link to='/'><h1 className="click grey">uiry</h1><br/></Link>
-						<Link to='/'><h1 className="click black">studio</h1></Link>	
+					<li className="col-10-12 left">
+						<Link to='/'><h1 className="click black">gskw</h1><br/></Link>				
 					</li>
 					<li className="col-2-12 right">
+						<div className="header-gap"/>
 						<Link to='/'>
 							<h2 id='nav' className={productClass}>production</h2>
 						</Link>

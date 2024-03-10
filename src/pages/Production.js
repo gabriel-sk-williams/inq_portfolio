@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ThumbnailGrid from '../components/ThumbnailGrid';
 import Viewer from '../components/Viewer';
-import '../Inqstyles.css';
+import '../gskwStyles.css';
 
 class Production extends Component {
 

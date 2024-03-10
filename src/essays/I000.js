@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import '../Inqstyles.css';
+import '../gskwStyles.css';
 
 class I000 extends Component {
 

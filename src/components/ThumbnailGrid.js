@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Inqstyles.css';
+import '../gskwStyles.css';
 
 class ThumbnailGrid extends Component {
 

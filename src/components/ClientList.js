@@ -21,9 +21,19 @@ class ClientList extends Component {
               alt: 'Canin Associates'
             },
             {
+              file: 'coinage.png',
+              link: 'https://www.coinage.media/',
+              alt: 'Coinage Media'
+            },
+            {
               file: 'common.png',
               link: 'https://www.common.com/',
               alt: 'Common Coliving'
+            },
+            {
+              file: 'fwd.png',
+              link: 'https://www.fwdaudio.com/',
+              alt: 'FWD Audio'
             },
             {
               file: 'mckenzie.png',
@@ -44,6 +54,11 @@ class ClientList extends Component {
               file: 'sns.png',
               link: 'https://squatsandscience.com/',
               alt: 'S&S Strength Gym'
+            },
+            {
+              file: 'vec4.png',
+              link: 'https://vec4.io/',
+              alt: '[VEC4]'
             },
             {
               file: 'wordcel.png',

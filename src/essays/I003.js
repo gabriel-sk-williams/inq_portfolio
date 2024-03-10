@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Helmet } from "react-helmet";
-import '../Inqstyles.css';
+import '../gskwStyles.css';
 
 class I003 extends Component {
 
@@ -95,7 +95,7 @@ class I003 extends Component {
           <meta name="twitter:site" content="@FUTUREDOME3000" />
           <meta name="twitter:title" content="003: Absolute Units" />
           <meta name="twitter:description" content="“The meter! A perfect one-ten millionth of the distance from the equator to the north pole along a meridian. The kilo-gram!...”" />
-          <meta name="twitter:image" content="https://www.inqstudio.com/assets/003_card.jpg" />
+          <meta name="twitter:image" content="https://gskw.xyz/assets/003_card.jpg" />
         </Helmet>
         {this.renderEssay()}
         {this.renderSources()}

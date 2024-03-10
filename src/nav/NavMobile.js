@@ -60,13 +60,7 @@ class NavMobile extends Component {
             <div id="nav-mobile" className={this.props.status}>
                 <div className="mobile-container">
                 <NavTopMobile menuToggle={this.menuToggle} onClick={this.menuToggle}/>
-                    <ul className="flex-column triple-break">
-                        <li className="left" onClick={this.menuToggle}>
-                            <Link to='/'><h1 className="click grey">machine</h1><br/></Link>
-                            <Link to='/'><h1 className="click black">inq</h1></Link>
-                            <Link to='/'><h1 className="click grey">uiry</h1><br/></Link>
-                            <Link to='/'><h1 className="click black">studio</h1></Link>
-                        </li>
+                    <ul className="flex-column">
                         <li className="left half-break">
                             <h1 onClick={this.toggleProduction}>Production</h1>
                             <div className="list-select" onClick={this.menuToggle}>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Helmet } from "react-helmet";
-import '../Inqstyles.css';
+import '../gskwStyles.css';
 
 class I001 extends Component {
 
@@ -104,7 +104,7 @@ class I001 extends Component {
             <meta name="twitter:site" content="@FUTUREDOME3000" />
             <meta name="twitter:title" content="001: World Machine" />
             <meta name="twitter:description" content="“Oh ye seekers after perpetual motion, how many vain chimeras have you pursued? Go and take your place with the alchemists.”" />
-            <meta name="twitter:image" content="https://www.inqstudio.com/assets/001_card.jpg" />
+            <meta name="twitter:image" content="https://gskw.xyz/assets/001_card.jpg" />
           </Helmet>
           {this.renderEssay()}
           {this.renderSources()}
