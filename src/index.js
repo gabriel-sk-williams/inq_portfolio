@@ -40,6 +40,20 @@ function AppRouter() {
 
       const projects = 
         [{
+          title: "Caldera",
+          subtext: "A next-gen contract intelligence platform. In partnership with [VEC4], we developed a dynamic new framework harnessing the full potential of semantic search and model-agnostic LLM queries. Synchronize your collections to the data lake of your choice and turn you documents into a superpower.",
+          link: "https://caldera.sh/",
+          thumb: ['calderaTouch.jpg', 'calderaSquare.jpg'],
+          files: ['caldera0.jpg'],
+        },
+        {
+          title: "Coinage Trivia",
+          subtext: "After the success of Sphinx Game, Coinage Media reached out to offer a white-label partnership to develop a new crypto trivia game. Widely promoted but limited to Coinage NFT holders only, questions must be answered in rapid-fire fashion, with prizes going to the highest scores. Eligibility, answers, and time limits all saved and verified on the blockchain.",
+          link: "https://www.coinage.media/",
+          thumb: ['coinageTouch.jpg', 'coinageSquare.jpg'],
+          files: ['coinage0.jpg', 'coinage1.jpg', 'coinage2.jpg', 'coinage3.jpg'],
+        },
+        {
           title: "Sphinx Game",
           subtext: "A Web3 carnival game built in Typescript and Solidity. Upon contract deployment, users could enter the website and try to solve riddles for an entry free denoted in Ethereum. The first person to submit three correct answers to the riddles gains 69% of the total pot. Web hooks using RainbowKit + wagmi packages.",
           link: "https://www.sphinxgame.wtf/",
