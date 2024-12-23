@@ -1,2 +1,2 @@
-# gskw_xyz
+# inq
 personal portfolio and research website
